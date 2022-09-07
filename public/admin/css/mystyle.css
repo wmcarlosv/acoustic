@@ -1,0 +1,459 @@
+.for-loader { 
+    display:none;
+}
+.preload { 
+    position: absolute;
+    /* width: 230px; */
+    height: auto;
+    z-index: 15;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.loader{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);    
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+.admin-header-image {
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 50px;
+}
+/* Sidebar */
+.main-sidebar .sidebar-menu li a i {
+    font-size: 18px
+}
+.table-responsive .action_icon{
+    font-size: 16px;
+}
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+.display-inline-flex{
+    display: inline-flex;
+}
+.display-inline-block{
+    display: inline-block;
+}
+.webkit-center{
+    text-align: -webkit-center;
+}
+.border-radius-10{
+    border-radius: 10%;
+}
+.border-radius-8{
+    border-radius: 8%;
+}
+a:hover{
+    color: var(--primary_color_hover);
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color : var(--primary_color_hover) !important;
+}
+/* datatable */
+.dt-buttons {
+    display: none !important;
+}
+.export-btns{
+    margin-bottom: -32px;
+}
+.dataTables_length{
+    text-align: center;
+}
+
+
+
+
+textarea.form-control {
+    height: 80px !important;
+}
+textarea.report_reason{
+    height: 140px !important;
+}
+/* image upload */
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 10px auto;
+    }
+    .avatar-upload .avatar-edit {
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 10px;
+    }
+    .avatar-upload .avatar-edit input {
+    display: none;
+    }
+    .avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    }
+    .avatar-upload .avatar-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+    }
+    .avatar-upload .avatar-edit input + label:after {
+    content: "+";
+    color: #757575;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 21px;
+    font-weight: 900;
+    }
+    .avatar-upload .avatar-preview {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    }
+    .avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .avatar-box .avatar-preview > div{
+        border-radius: 10%;
+        width: 100%;
+    }
+    .avatar-box .avatar-preview{
+        border-radius: 10%;
+    }
+    .avatar-box-left{
+        margin: 0px;
+    }
+.note-toolbar button{
+    margin-right: 15px;
+}
+.note-editor .note-toolbar, .note-popover .popover-content {
+    border-bottom: 1px solid #e4e6fc;
+    background: #fdfdff;
+}
+.heart{
+    display: inline-block;
+    right: 0;
+    position: absolute;
+}
+.heart .fas{
+    font-size: 14px;
+}
+.article-title{
+    color: white;
+}
+.article .article-header {
+    height: 200px;
+}
+.article .article-header .article-title{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 1%, rgba(0, 0, 0, 0.75) 95%, rgba(0, 0, 0, 0.75) 100%);
+}
+.model-1{
+    background: #0000007a;
+}
+.modal-header{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+}
+.text-facebook {
+    color: #3b5998 !important;
+}
+.bg-facebook {
+    background-color: #3b5998 !important;
+}
+.text-google {
+    color: #ea4335 !important;
+}
+.bg-google {
+    background-color: #ea4335 !important;
+}
+.text-black {
+    color: #000 !important;
+}
+.bg-black {
+    background-color: #000 !important;
+}
+.fa-apple{
+    font-size: 25px !important;
+}
+.provider{
+    text-align: center;
+    width: 1.25em;
+    font-size: 18px;
+}
+.posts .nav-item{
+    flex: 1;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.posts .nav-pills .nav-item .nav-link{
+    border-radius: 0;
+    box-shadow: none;
+}
+.posts .nav-pills .nav-item .nav-link:hover {
+    border-bottom: 2px solid var(--primary_color);
+    font-weight: bold;
+    background-color: #fff;
+    transition: left .2s ease;
+    -webkit-transition: left .2s ease;
+}
+.posts .nav-pills .nav-item .nav-link.active {
+    background: #fff;
+    color: var(--primary_color);
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary_color);
+    transition: left .2s ease;
+    -webkit-transition: left .2s ease;
+}
+.video-tag{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+}
+   /* Layout for this demo */
+  .wrap{
+    position: relative;
+    max-width: 1000px;
+    width: 95%;
+    margin: 15px auto;
+  }
+  
+   /* The outer-div to move the elements */
+  .box-video{
+    position: relative;
+    width: 100%;
+    margin:0 auto 20px auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+   /* Set Cover aka Background-Image */
+  .box-video .bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+  }
+  
+   /* Add light shade to make play button visible*/
+  .bg-video::after{ 
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        z-index: 3;
+}
+  
+  
+/* The Play-Button using CSS-Only */
+.box-video .bt-play {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:-30px 0 0 -30px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50%;
+    text-indent: -999em;
+    cursor: pointer;
+    z-index:2;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+  
+/* The Play-Triangle */
+.box-video .bt-play:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin: -12px 0 0 -6px;
+    border: solid transparent;
+    border-left-color: #000;
+    border-width: 12px 20px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+  
+.box-video:hover .bt-play {
+    transform: scale(1.1);
+}
+
+/* When Class added the Cover gets hidden... */
+.box-video.open .bg-video{
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition: all .6s .8s;
+    transition: all .6s .8s;  
+}
+
+/* and iframe shows up */
+.box-video.open .video-container{
+    opacity: 1;
+    -webkit-transition: all .6s .8s;
+    transition: all .6s .8s;
+}
+
+/* Giving the div ratio of 16:9 with padding */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin: 0;
+    z-index: 1;
+    padding-bottom: 56.27198%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.badge.badge-gray {
+    background-color: #ababab6b;
+    color: #333;
+}
+.media .media-right{
+    color: #34395e;
+}
+
+/*  */
+.scrollbar
+{
+	height: 400px;
+	width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.force-overflow
+{
+	min-height: 0;
+}
+
+/*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #ddd;
+}
+.media-description{
+    font-size: 14px;
+}
+tbody td{
+    font-size: 15px;
+}
+.pointer-none{
+    pointer-events: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-not-allowed{
+    cursor: not-allowed;
+}
+.dashboard .table:not(.table-sm):not(.table-md):not(.dataTable) td, .dashboard .table:not(.table-sm):not(.table-md):not(.dataTable) th{
+    height: 47px !important;
+}
+.dropdown-item{
+    cursor: pointer;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: var(--primary_color);
+    border-color: var(--primary_color);
+}
+.avatar1 .flag{
+    border-radius: 8% !important;
+    width: auto;
+    height: 25px;
+    width: 48px;
+}
+.flag_table{
+    height: 30px;
+    width: 48px;
+}
+.color-primary{
+    color: var(--primary_color) !important;
+}
+.border-top-primary{
+    border-top: 2px solid var(--primary_color) !important;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #fdfdff !important;
+}
+.section-filter{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.border-radius-0{
+    border-radius: 0 !important;
+}
+.media img{
+    width: 50px;
+    height: 50px;
+}
+#imagePreview{
+    background-color: #f0f3f6;
+}
